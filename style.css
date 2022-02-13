@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.headings {
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right, red 10%, green 40%, yellow);
+}
+
+.nav {
+    text-align: center;
+    border: 2px solid red;
+    background: dodgerblue;
+    padding: 10px 0px;
+    width: 600px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.nav ul li {
+    text-align: center;
+    padding-left: 20px;
+}
+
+.lorem {
+    width: 90vw;
+    margin: 20px auto;
+    border: 1px solid red;
+    border-radius: 15px;
+    background: lightgreen;
+    padding: 10px;
+    display: grid;
+    gap: 0px 20px;
+    grid-template-columns: auto auto auto;
+}
+
+.lorem .box {
+    border: 2px solid green;
+    border-radius: 15px;
+    background: white;
+    padding: 5px;
+    margin: auto;
+}
+
+.lorem .box4 {
+    grid-column-start: 2;
+}
+
+.top-performer {
+    background: radial-gradient(yellow, red);
+    padding: 0px 0px 5px 0px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+    margin-bottom: 10px;
+}
+
+.topper {
+    background: radial-gradient(blue 10%, dodgerblue 35%, lightgreen);
+    padding: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.topper .box {
+    border: 1px solid red;
+    border-radius: 15px;
+    color: red;
+    background: yellow;
+    text-align: center;
+    padding: 15px;
+}
+
+.bottom-grid {
+    display: grid;
+    grid-template-rows: 50px 90px 100px 35px;
+    grid-template-columns: auto auto auto 120px;
+    gap: 15px 15px;
+    border: 2px solid black;
+    margin: 20px 0px;
+}
+
+.bottom-grid .box1 {
+    text-align: center;
+    background: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/5;
+}
+
+.bottom-grid .box2 {
+    text-align: center;
+    background: green;
+    color: white;
+    padding: 0px 10px;
+}
+
+.bottom-grid .box3 {
+    background: dodgerblue;
+    color: white;
+}
+
+.bottom-grid .box4 {
+    background: purple;
+    color: white;
+}
+
+.bottom-grid .box5 {
+    background: black;
+    color: white;
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+
+.bottom-grid .box5 span {
+    text-decoration: underline;
+}
+
+.bottom-grid .box6 {
+    background: orange;
+    color: white;
+    padding: 0px 10px;
+    grid-column: 1/4;
+}
+
+.bottom-grid .box7 {
+    background: dodgerblue;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/5;
+}
